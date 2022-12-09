@@ -1,4 +1,7 @@
 #include <Servo_Rc_PWM.h>
+
+// https://github.com/GaloisInc/ardupilot-mega/blob/master/libraries/AP_HAL_AVR/RCInput_APM2.cpp
+
 Servo servo_roll, servo_pitch;
 
 #define AVR_RC_INPUT_NUM_CHANNELS 10
